@@ -55,7 +55,7 @@ def isVaildDate(day, month, year):
         return False
     if month == 2 :
         max_days = 29 if isLeapYear(year) else 28
-        if day < max_days:
+        if day > max_days:
             return False
     if month in (4, 6, 9, 11):
         if day  > 30:
@@ -75,7 +75,7 @@ def main():
         return
     day, month, year = map(int, date.split("/"))
     if isVaildDate(day, month, year):
-        print(f"{monthNames[month - 1]} {day}, {year}")
+        print(f"{monthNames[month]} {day}, {year}")
     else:
         print("Invalid Date")
 if __name__ == "__main__":
