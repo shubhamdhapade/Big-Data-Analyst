@@ -1,0 +1,5 @@
+2026-09-02 10:15:30 GET /api/v1/users 200 120ms
+2026-09-02 10:15:32 POST /api/v1/login 401 45ms
+2026-09-02 10:15:35 GET /api/v1/products 200 310ms
+2026-09-02 10:15:38 GET /api/v1/checkout 500 850ms
+2026-09-02 10:15:40 GET /api/v1/users 200 115ms
